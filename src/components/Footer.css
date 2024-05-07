@@ -1,0 +1,10 @@
+.footer {
+    color: white;
+    background-color:  rgb(192, 45, 26);
+    padding: 1em;
+}
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }

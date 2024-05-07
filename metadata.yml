@@ -1,0 +1,12 @@
+---
+:id: 234963301
+:submitters:
+- :name: Monique "Emaline" Gayhart
+  :email: monique.gayhart@students.dominican.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2024-02-28 17:35:21.514056000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2024-02-28 09:35:21.514056000 Z
+:status: processed
+:score: 11.0

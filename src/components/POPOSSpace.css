@@ -1,0 +1,41 @@
+.POPOSSpace {
+  display: flex; 
+  align-items: center; 
+  width: 100%; 
+  text-align: center;
+  background-color: #f0f0f0; 
+  padding: 1rem; 
+  margin: 1rem auto; 
+}
+
+.POPOSSpace-image {
+  width: 300px; 
+  margin-right: 20px; 
+}
+
+.POPOSSpace-image img {
+  width: 100%; 
+}
+
+.POPOSSpace-info {
+  flex: 1; 
+}
+
+@media screen and (min-width: 768px) {
+  .POPOSSpace {
+    flex-direction: row; 
+    width: calc(50% - 2rem); 
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .POPOSSpace {
+    flex-direction: column; 
+  }
+
+  .POPOSSpace-image {
+    width: 100%;
+    margin-right: 0; 
+    margin-bottom: 10px; 
+  }
+}
